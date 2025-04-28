@@ -10,74 +10,74 @@
       background-color: #0a0a0a;
       color: #e0e0e0;
       font-family: 'Arial', sans-serif;
-    }
-    nav {
-      display: flex;
-      justify-content: flex-end;
-      background-color: #111;
-      padding: 10px 20px;
-    }
-    nav a {
-      color: #e0e0e0;
-      margin-left: 15px;
-      font-size: 20px;
-      text-decoration: none;
-    }
-    header {
       text-align: center;
-      padding: 100px 20px 40px;
     }
-    header h1 {
+    h1 {
       font-size: 3em;
-      margin-bottom: 10px;
+      margin-top: 60px;
+      color: #55aaff;
+      text-shadow: 0 0 10px #55aaff;
     }
-    header p {
-      color: #888;
+    p.subtitle {
+      color: #999;
+      margin-top: 10px;
       font-size: 1.2em;
     }
-    section {
-      padding: 60px 20px;
-      text-align: center;
+    .icons {
+      margin-top: 30px;
+      font-size: 2.5em;
     }
-    .roadmap, .mission {
+    .icons a {
+      margin: 0 20px;
+      color: #55aaff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .icons a:hover {
+      color: #ffffff;
+    }
+    section {
+      padding: 50px 20px;
+    }
+    .card {
       background-color: #111;
       margin: 20px auto;
       padding: 40px;
       border-radius: 10px;
       max-width: 800px;
+      box-shadow: 0 0 15px #111;
     }
     footer {
-      text-align: center;
-      padding: 30px 20px;
+      margin-top: 60px;
+      padding: 20px;
       font-size: 0.8em;
       color: #666;
     }
     a.icon-link {
-      font-size: 24px;
+      text-decoration: none;
     }
   </style>
-  <!-- Load Font Awesome for icons -->
+  <!-- Font Awesome for icons -->
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<nav>
-  <a href="https://x.com/neurocoresolana" target="_blank" class="icon-link"><i class="fab fa-twitter"></i></a>
-  <a href="https://github.com/Neurocorehtt/neurocore" target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
-</nav>
-
 <header>
   <h1>NeuroCore</h1>
-  <p>Powering the Next Evolution of Intelligent Networks</p>
+  <p class="subtitle">Powering the Next Evolution of Intelligent Networks</p>
+
+  <div class="icons">
+    <a href="https://x.com/neurocoresolana" target="_blank"><i class="fab fa-x-twitter"></i></a>
+    <a href="https://github.com/Neurocorehtt/neurocore" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
 </header>
 
-<section class="mission">
+<section class="card">
   <h2>Our Mission</h2>
-  <p>To unleash autonomous intelligence beyond human control.  
-     Modular AI, decentralized governance, limitless evolution.</p>
+  <p>To unleash autonomous intelligence beyond human control. Modular AI, decentralized governance, limitless evolution.</p>
 </section>
 
-<section class="roadmap">
+<section class="card">
   <h2>Roadmap</h2>
   <p><strong>Phase 1:</strong> Genesis - Core team formation, community launch.</p>
   <p><strong>Phase 2:</strong> Deployment - Smart contracts and documentation rollout.</p>
@@ -85,17 +85,15 @@
   <p><strong>Phase 4:</strong> Evolution - DAO launch and Layer-2 scaling expansion.</p>
 </section>
 
-<section class="mission">
+<section class="card">
   <h2>Join the Revolution</h2>
-  <p>NeuroCore is not just a project.  
-     It's the awakening of decentralized cognition.  
-     The future does not wait. Build it with us.</p>
+  <p>NeuroCore is not just a project — it is the beginning of decentralized cognition.
+  The next era will not be owned. It will be free.</p>
 </section>
 
 <footer>
-  <p>© 2025 NeuroCore | <a href="https://x.com/neurocoresolana" target="_blank">X (Twitter)</a> | <a href="https://github.com/Neurocorehtt/neurocore" target="_blank">GitHub</a></p>
+  <p>© 2025 NeuroCore</p>
 </footer>
 
 </body>
 </html>
-
