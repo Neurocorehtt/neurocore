@@ -20,6 +20,6 @@ NeuroCore is pioneering the future of decentralized intelligent infrastructure. 
 ## Links
 - [Website]()
 - [GitHub]()
-- [X (Twitter)]()
+- [X (Twitter)](https://x.com/neurocoresolana)
 
 ---
