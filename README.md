@@ -18,7 +18,7 @@ NeuroCore is pioneering the future of decentralized intelligent infrastructure. 
 - Phase 4: Evolution - Layer-2 solutions explored; DAO begins formation
 
 ## Links
-- [Website]()
+- [Website](https://neurocorehtt.github.io/neurocore/)
 - [GitHub](https://github.com/Neurocorehtt/neurocore)
 - [X (Twitter)](https://x.com/neurocoresolana)
 
